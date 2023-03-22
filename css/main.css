@@ -1,0 +1,258 @@
+/* start  head $ landing section */
+
+.head{
+    display: flex ;
+    justify-content: space-between;
+    background-color: orange;
+    padding: 20px 0;
+    position: sticky;
+
+}
+.head img {
+    width: 100px;
+}
+.head  ul  li{
+    
+    margin-left: 10px;
+    display: inline-block;
+    text-decoration: none;
+  
+}
+.head  ul  li.active,.head  ul  li:hover{
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent transparent #eee transparent;
+    padding: 10px;
+}
+.head  ul  li a{
+   color: black;
+   text-decoration: none;
+  
+}
+.sub-menu-1{
+    display: none;
+}
+ 
+.head  ul  li:hover .sub-menu-1 a{
+    color: white;
+}
+.head  ul  li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+
+}
+.middle {
+     display: flex;
+    justify-content: center;
+    align-items: center ;
+     text-align: center ;
+     flex-wrap: wrap;
+     margin-top: 30px;
+     
+     
+    
+     
+}
+
+.middle   li{
+    margin-left: 20px;
+    color: orange;
+}
+
+/* end  head $ landing section */
+
+/* start   slider section */
+.slider
+    {
+        background-color: #eee;
+    
+    }
+    .slider .carousel-inner {
+    
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .slider .carousel-item {
+        -webkit-background-size: cover;
+        -moz-background-size: cover ;
+        -o-background-size: cover ;
+        background-size: cover;
+    
+    
+        
+    }
+
+.slider  .item-one {
+    
+    background-image: url("../img/pics-20.jpg");
+
+}
+.slider .item-two {
+    background-image: url("../img/pics-24.jpg");
+
+}
+
+.slider .item-three {
+    background-image: url("../img/pics-28.jpg");
+
+}
+/* end  slider section */
+
+/* start  offers section */
+.offers {
+    text-align: center;
+
+}
+.offers h1,.offers h5{
+    margin: 20px 0;
+}
+.offers .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top:  20px;
+    flex-wrap: wrap;
+}
+.offers .offer{
+    
+    padding: 10px ;
+    min-width: 250px;
+    border: 1px solid #ccc;
+    margin: 15px 0;
+ box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+ border-radius: 15px;
+ cursor: pointer;
+  transition: .2s ease;
+  position: relative; 
+
+}
+.offers .offer:hover{
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+.offers .offer img{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+.offers .offer .description{
+    text-align: start;
+    padding: 10px 0; 
+}
+
+.offers .product .description p{
+      font-size: 12px;
+      
+}
+.offers .offer .description h6{
+ margin-bottom: 45px;
+    
+}
+.offers .offer .description i{
+   color: rgb(243, 181, 25);
+  
+
+}
+
+.offers .offer  .stay{
+
+  position: absolute;
+  bottom: 12px;
+  right: 10px;
+}
+
+/* end offers section */
+
+
+/* start contact section */
+ .contact{
+    margin-top: 50px;
+  
+ }
+ 
+ .contact-add{
+    
+    background-color: #eee;
+    padding: 100px 80px;
+    
+
+ }
+ .contact-add1{
+    
+    padding: 100px 50px;  
+ }
+ 
+ .contact-add h1{
+    margin-bottom: 50px;
+    font-weight: normal;
+ }
+ .contact-add i{
+    color: orange;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-right: 10px;
+ }
+ 
+ .contact-add1 input,  .contact-add1 textarea{
+    
+    border-color:transparent transparent #f5f5f5 transparent;
+    padding: 10px 2px 8px 5px;
+    
+ }
+ .contact-add1 input:hover,  .contact-add1 textarea:hover{
+    border-bottom-color: orange;
+ }
+
+ .contact-add1 input[type="submit"]{
+    background-color: orange;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 4px;
+    border-color:transparent transparent transparent transparent;
+ }
+/* End contact section */
+
+
+/* start footer section */
+footer{
+    padding: 20px 50px;
+    background-color: black;
+    color: white;
+}
+footer h1{
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+footer img{
+    width: 150px;
+}
+footer li{
+    margin-bottom: 10px;
+}
+
+footer .last{
+    display: flex;
+    position: relative;
+    border-top: 1px solid #afadad;
+    padding-top: 20px;
+}
+footer .last h2 {
+    color: #4e4e4e;
+    font-size: 20px;
+
+}
+footer .last .social{
+    position: absolute;
+    right: 0;
+
+}
+footer .last .social i{
+    margin-left: 20px;
+    padding: 10px;
+    color: white;
+    background-color: orange;
+    border-radius: 50%;
+}
+/* End footer section */

@@ -1,0 +1,16 @@
+
+    
+
+.over{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:  fit-content;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius:  4px;
+    padding:  10px 25px;
+    margin-top: 50px;
+}
+

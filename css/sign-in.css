@@ -1,0 +1,50 @@
+.sign{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:  fit-content;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius:  4px;
+    padding:  10px 25px;
+  
+}
+
+
+.sign input{
+    padding-right: 80px;
+    padding-left: 4px;
+    
+}
+.sign input:hover{
+    border-color: orange;
+}
+
+.sign input[type="text"]{
+    margin:15px 0;
+}
+.sign input[type="password"]{
+  margin-bottom: 20px;
+}
+.sign  h5{
+    color: #898585;
+}
+
+
+.sign a button{
+   
+    background-color: orange;
+    margin: 20px 0;
+   padding: 5px 100px;
+   color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+
+  
+}
+.sign a button:first-of-type{
+   
+    margin-bottom: 20px;
+}

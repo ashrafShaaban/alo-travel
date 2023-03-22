@@ -1,0 +1,29 @@
+
+
+.head .sub-menu-2{
+    display: none;
+}
+
+
+.head  ul  li:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    background-color: #eee;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+.head  ul  li:hover .sub-menu-2 ul{
+    display: block;
+   margin: 10px;
+
+  
+}
+.head  ul  li:hover .sub-menu-2 ul li{
+   
+
+    border-bottom: 1px solid orange;
+  
+}
+
+
+
